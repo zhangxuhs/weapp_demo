@@ -1,0 +1,1 @@
+SELECT * FROM `usr_address` WHERE `usr_id` = '$usr_id' or `id` = '$id'

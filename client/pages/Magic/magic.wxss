@@ -1,0 +1,15 @@
+.line{
+    display: flex;
+    margin: 5rpx;
+    border: #ddd solid 1px;
+    padding: 50rpx;
+}
+.one-img{
+    flex-direction: column;
+    padding: 1rpx;
+}
+.poster{
+    width: 370px;
+    height: 200px;
+    background: #0f0;
+}

@@ -1,0 +1,1 @@
+INSERT INTO `usr_address` (`id`, `usr_id`, `usr_name`, `contacter`, `telephone`, `creat_date`, `modify_date`, `usr_address`, `first_choice`) VALUES (NULL, '$usr_id', '$usr_name', '$contacter', '$telephone', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, '$usr_address', '$first_choice');

@@ -1,0 +1,48 @@
+.swiper{
+  height: 400rpx;
+  width: 100%;
+}
+.swiper-item{
+  display: block;
+  height: 150px;
+}
+.swiper image{
+  height: 100%;
+  width: 100%;
+}
+.line{
+    display: flex;
+    margin: 5rpx;
+    border: #ddd solid 1px;
+    padding: 50rpx;
+}
+.sl-col{
+    width: 25%;
+    margin: 0 2rpx;
+    border: #ddd solid 1px;
+    text-align: center;
+    padding: 3rpx;
+    font-size: 12px;
+}
+.second-img{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 5rpx;
+}
+.second{
+    padding: 5rpx;
+}
+.one-img{
+    flex-direction: column;
+    padding: 1rpx;
+}
+.alone-line-text{
+    width: 100%;
+    text-align: center;
+    padding: 30rpx;
+}
+.poster{
+    width: 370px;
+    height: 200px;
+    background: #0f0;
+}

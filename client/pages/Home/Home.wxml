@@ -1,0 +1,25 @@
+<view class="page">
+  <view class="page__bd">
+    <swiper class="swiper" indicator-dots="{{indicatorDots}}" vertical="{{vertical}}"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{swiper}}" wx:for-index="index">    
+        <swiper-item>    
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill" bindtap="navigateTo" id="{{item.title}}"/>    
+        </swiper-item>    
+      </block>
+    </swiper>
+    <view class="second line">
+        <view class="sl-col" wx:for="{{workbench}}" wx:for-index="index">
+             <image class="second-img" mode="scaleToFill" bindtap="navigateTo" id="{{item.title}}" src="{{item.url}}"></image>
+             <text>home_wb1</text>
+        </view>
+    </view>
+  </view>
+  <view class="line one-img">
+        <text class="alone-line-text">精品课程</text>
+        <image class="poster" mode="scaleToFill" src="http://b1.hucdn.com/upload/show/1609/22/07024560401727_750x350.jpg!750q50.webp"></image>
+    </view>
+    <view class="line one-img">
+        <image class="poster" mode="scaleToFill" src="http://b1.hucdn.com/upload/show/1609/23/03493200704091_750x350.jpg!750q50.webp"></image>
+  </view>
+</view>

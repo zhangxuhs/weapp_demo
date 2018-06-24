@@ -1,0 +1,11 @@
+{
+	"client": "./client",
+	"svr": "./server",
+	"setting": {
+		"newFeature": true
+	},
+	"appid": "wxc9b019401ef8803c",
+	"projectname": "weappdemo",
+	"compileType": "miniprogram",
+	"condition": {}
+}

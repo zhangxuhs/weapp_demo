@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/Home/Home",
+    "pages/Home/autoplay1/autoplay1",
+    "pages/Home/autoplay2/autoplay2",
+    "pages/Home/autoplay3/autoplay3",
+    "pages/Home/home_wb1/home_wb1",
+
+    "pages/Mine/mine",
+    "pages/Mine/wddd/wddd",
+    "pages/Mine/wddjq/wddjq",
+    "pages/Mine/shdzgl/shdzgl",
+    "pages/Mine/shdzgl/modify/modify",
+    "pages/Mine/shdzgl/add/add",
+
+    "pages/Course/course",
+    "pages/Course/list/course1",
+    "pages/Course/list/course2",
+    
+    "pages/Magic/magic",
+    "pages/Magic/tools/cpy/cpy",
+    "pages/Magic/games/2048/2048"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#000000",
+    "navigationBarBackgroundColor": "#FF7F00",
+    "navigationBarTextStyle": "white"
+  },  
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#FF7F00",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/Home/Home",
+        "iconPath": "images/tabbar/首页暗.png",
+        "selectedIconPath": "images/tabbar/首页亮.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/Course/course",
+        "iconPath": "images/tabbar/课程暗.png",
+        "selectedIconPath": "images/tabbar/课程亮.png",
+        "text": "课程"
+      },
+      {
+        "pagePath": "pages/Magic/magic",
+        "iconPath": "images/tabbar/交流暗.png",
+        "selectedIconPath": "images/tabbar/交流亮.png",
+        "text": "交流"
+      },
+      {
+        "pagePath": "pages/Mine/mine",
+        "iconPath": "images/tabbar/我的暗.png",
+        "selectedIconPath": "images/tabbar/我的亮.png",
+        "text": "嵌入"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
